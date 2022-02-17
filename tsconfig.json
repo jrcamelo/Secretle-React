@@ -19,10 +19,19 @@
     "isolatedModules": true,
     "jsx": "preserve"
   },
+  "paths": {
+    "@/*": ["./src/*"],
+    "@/pages/*": ["./src/pages/*"],
+    "@/public/*": ["./public/*"],
+    "@/styles/*": ["./styles/*"],
+    "@/data/*": ["./data/*"],
+  },
   "include": [
     "next-env.d.ts",
     "**/*.ts",
-    "**/*.tsx"
+    "**/*.tsx",
+    "**/*.css",
+    "**/*.scss",
   ],
   "exclude": [
     "node_modules"

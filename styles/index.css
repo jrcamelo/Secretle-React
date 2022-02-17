@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1.title-text {
+    font-size: 60px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+div.title-div {
+    display: flex;
+    justify-content: center;
+}

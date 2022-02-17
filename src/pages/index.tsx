@@ -13,7 +13,9 @@ export default function Home(props: Props): JSX.Element {
             </Head>
 
             <main>
-                <h1>Secretle</h1>
+                <div className="title-div">
+                    <h1 className="title-text">Secretle</h1>
+                </div>
             </main>
         </div>
     );
