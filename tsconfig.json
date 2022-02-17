@@ -24,6 +24,7 @@
     "@/pages/*": ["./src/pages/*"],
     "@/public/*": ["./public/*"],
     "@/styles/*": ["./styles/*"],
+    "@/components/*": ["./src/components/*"],
     "@/data/*": ["./data/*"],
   },
   "include": [
@@ -35,5 +36,12 @@
   ],
   "exclude": [
     "node_modules"
-  ]
+  ],
+  "files": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.css",
+    "**/*.scss",
+  ],
 }
