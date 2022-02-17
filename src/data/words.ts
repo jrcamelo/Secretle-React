@@ -12970,5 +12970,5 @@ export default [
     "brunt",
     "payee",
     "blond",
-    "daddy"
+    "daddy",
 ];
